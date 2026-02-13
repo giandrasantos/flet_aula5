@@ -6,7 +6,7 @@ def main(page: ft.Page):
 
     def verificar_resposta(e):
         if e.control.content == resposta_correta:
-            mensagem.value = "Miska, Muska, PARABÉNS, VOCÊ ARCETOU!!"
+            mensagem.value = "Miska, Muska, PARABÉNS, VOCÊ ACERTOU!!"
         else:
             mensagem.value = "Resposta errada"
         page.update()
